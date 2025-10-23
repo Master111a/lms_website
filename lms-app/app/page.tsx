@@ -1,7 +1,9 @@
-import Image from "next/image";
+import Navbar from "./components/ui/students/Navbar";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black"></div>
+    <div className="min-h-screen bg-white w-full">
+      <Navbar />
+    </div>
   );
 }
