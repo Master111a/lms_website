@@ -3,7 +3,7 @@ export default function SearchBar() {
     <div className="w-full flex items-center justify-center">
       <form
         action=""
-        className="max-w-xl w-full h-14 flex items-center bg-white border border-gray-300 rounded-lg shadow-md px-4"
+        className="max-w-xl w-full h-14 flex items-center bg-white border border-gray-300 rounded-lg shadow-md pl-4 pr-2"
       >
         <input
           type="text"
